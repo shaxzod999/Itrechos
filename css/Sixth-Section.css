@@ -155,7 +155,7 @@ a {
   }
 
   .sixth-section .sixth-section-cards .sixth-section-cards-card {
-    width: 45%;
+    width: 100% !important;
     height: auto;
     gap: 16px;
   }

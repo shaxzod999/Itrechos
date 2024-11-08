@@ -654,7 +654,7 @@ button {
 .fifth-section-bottom
   .fifth-section-bottom-cards
   .fifth-section-bottom-cards-card {
-  width: 30% !important;
+  width: 30% ;
   height: 192px;
   display: flex;
   flex-direction: column;
@@ -741,6 +741,7 @@ button {
   }
 
   .fifth-section .fifth-section-bottom-cards {
+    width: 100% !important;
     flex-direction: column;
     gap: 40px !important;
   }
@@ -1252,6 +1253,15 @@ button {
   .ninth-section-div-bottom-top
   .ninth-section-div-bottom-top-right
   div
+  ul a li{
+    color: #1a1d27;
+  }
+.ninth-section
+  .ninth-section-div
+  .ninth-section-div-bottom
+  .ninth-section-div-bottom-top
+  .ninth-section-div-bottom-top-right
+  div
   ul {
   display: flex !important;
   align-items: center;
@@ -1261,6 +1271,7 @@ button {
   margin-left: 20px;
   font-size: 16px;
   font-weight: 700;
+  color: #1a1d27;
 }
 .ninth-section
   .ninth-section-div
@@ -1303,6 +1314,14 @@ button {
   justify-content: center;
   gap: 8px;
 }
+.ninth-section
+  .ninth-section-div
+  .ninth-section-div-bottom
+  .ninth-section-div-bottom-bottom
+  div
+  ul a li{
+    color: #1a1d27;
+  }
 .ninth-section
   .ninth-section-div
   .ninth-section-div-bottom

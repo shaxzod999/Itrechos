@@ -68,27 +68,30 @@ a {
 
 @media (max-width: 768px) {
   .header {
-    width: 100%;
+    width: 100% !important;
     position: fixed;
     padding: 0 20px !important;
     background: #4934db !important;
     z-index: 999 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .header-container {
-    width: 100%;
+    width: 100% !important;
     justify-content: space-between;
     background: #4934db !important;
   }
 
   .header .header-ul {
+    max-width: 800px !important;
+    height: calc(100vh - 100px);
     display: none;
     flex-direction: column;
     background: #4934db;
     position: absolute;
     top: 88px;
     right: 0;
-    width: 100% !important;
-    height: calc(100vh - 88px);
     justify-content: center;
     align-items: center;
     gap: 20px;
@@ -96,12 +99,16 @@ a {
 
   .header .header-ul ul {
     width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 20px;
+  
   }
 
   .header .header-ul div {
+    width: 100% !important;
     align-items: center;
     justify-content: center;
   }
@@ -111,7 +118,8 @@ a {
   }
 
   .header-ul.active {
-    height: 100px !important;
+    width: 100% !important;
+    height: 150px !important;
     display: flex;
     z-index: -1 !important;
     margin-top: 25px;
@@ -185,4 +193,14 @@ a {
 
 .dropdown:hover .dropdown-content {
   display: block !important;
+}
+
+
+@media (max-width: 768px) {
+  .dropdown-content {
+    display: none;
+  }
+  .dropdown:hover .dropdown-content {
+    display: none !important;
+  }
 }

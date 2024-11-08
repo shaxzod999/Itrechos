@@ -37,11 +37,12 @@ a {
   font-size: 64px;
   font-weight: 700;
 }
-.first-section h4 {
+.first-section h4 a{
   font-size: 24px;
   font-weight: 700;
+  color: #fff;
 }
-.first-section h4 span {
+.first-section h4 span a{
   color: #97f793;
 }
 @media (max-width: 768px) {

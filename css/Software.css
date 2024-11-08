@@ -55,6 +55,9 @@ a {
   font-size: 64px;
   font-weight: 700;
 }
+.first-section-top-texts ul a li{
+  color: #1a1d27;
+}
 .first-section-top-texts ul {
   width: 100% !important;
   display: flex !important;

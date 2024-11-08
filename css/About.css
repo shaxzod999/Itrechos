@@ -6,8 +6,9 @@
   margin: 0;
   font-family: "Syne", sans-serif;
 }
-a {
+a,button {
   text-decoration: none;
+  cursor: pointer;
 }
 .About {
   width: 100%;
@@ -35,11 +36,12 @@ a {
   font-size: 64px;
   font-weight: 700;
 }
-.first-section h4 {
+.first-section h4 a{
   font-size: 24px;
   font-weight: 700;
+  color: #fff;
 }
-.first-section h4 span {
+.first-section h4 span a{
   color: #97f793;
 }
 @media (max-width: 768px) {
@@ -355,5 +357,18 @@ a {
     color: #1a1d27;
     font-size: 13px;
     font-weight: 400;
+  }
+  .modal-content iframe {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100% !important;
+    height: auto !important;
+    text-align: center;
+    position: relative;
   }
 }

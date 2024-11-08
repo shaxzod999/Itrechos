@@ -109,7 +109,7 @@ gsap.matchMedia().add("(max-width: 768px)", () => {
     y: -30,
   });
   gsap.from(".first-section-top-left p", { opacity: 0, delay: 0.5, y: -30 });
-  gsap.from(".first-section-top img", { opacity: 0, delay: 0.3, y: 30 });
+  gsap.from(".first-section-top .first-section-top-img-card", { opacity: 0, delay: 0.3, y: 30 });
   // gsap.from(".first-section-top-left .btn", { opacity: 1,duration: 1, delay: 0.5, y: -30 });
   gsap.from(".first-section-bottom .img1", { opacity: 0, delay: 0.3, y: 30 });
   gsap.from(".first-section-bottom .img2", { opacity: 0, delay: 0.4, y: 30 });

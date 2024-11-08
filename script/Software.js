@@ -13,7 +13,7 @@ ulElements.forEach((ul, index) => {
     y: 30,
     duration: 0.5,
     ease: "power3.out",
-    delay: index * 0.1,
+    delay: index * 0.01,
   });
 });
 
@@ -37,6 +37,6 @@ sectionElements.forEach((element, index) => {
     scale: 0.9, // Scale 0.9 holatidan boshlanishi
     duration: 0.6, // Animatsiya davomiyligi
     ease: "power4.out", // Yuqori sifatli qizg'in effekt
-    delay: index * 0.1, // Har bir element uchun ortiqcha vaqt
+    delay: index * 0.01, // Har bir element uchun ortiqcha vaqt
   });
 });
