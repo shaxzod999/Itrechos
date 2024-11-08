@@ -15,16 +15,6 @@ a {
   background: #1a1d27;
   color: #fff;
 }
-.fifth-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-}
 .fifth-section .fifth-section-top {
   width: 100%;
   display: flex;
@@ -171,7 +161,7 @@ a {
     padding: 20px;
   }
 
-  .fifth-section-container {
+  .fifth-section .container {
     max-width: 100%;
     gap: 40px;
   }

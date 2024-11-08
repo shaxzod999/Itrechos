@@ -19,16 +19,6 @@ a {
   min-height: 946px;
   margin: 100px 0;
 }
-.first-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 48px;
-}
 .first-section-top {
   width: 100%;
   min-height: 752px;
@@ -160,7 +150,7 @@ a {
     margin: 0 !important;
     padding-top: 100px;
   }
-  .first-section-container {
+  .first-section .container {
     width: 100% !important;
     height: 100%;
     margin: 0 auto;

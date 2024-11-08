@@ -116,15 +116,6 @@ h2 {
   width: 100%;
   min-height: 100vh;
 }
-.Third-Second-container {
-  max-width: 1300px;
-  margin: 0 auto;
-  height: 100%;
-  display: flex;
-  align-items: top;
-  justify-content: center;
-  gap: 30px;
-}
 .Third-Second-left {
   width: 856px;
   height: 100%;
@@ -275,7 +266,7 @@ h2 {
   height: 192px;
 }
 @media (max-width: 768px) {
-  .Third-Second-container {
+  .Third-Second .container {
     width: 100% !important;
     flex-direction: column;
     margin-top: 50px;

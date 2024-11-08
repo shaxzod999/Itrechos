@@ -24,16 +24,6 @@ button {
   background-size: 100% 100%;
   background-repeat: no-repeat;
 }
-.first-section-container {
-  max-width: 1100px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 50px;
-}
 .first-section .first-section-top {
   width: 100%;
   display: flex;
@@ -174,7 +164,7 @@ button {
     padding-top: 130px;
   }
 
-  .first-section-container {
+  .first-section .container {
     gap: 30px;
   }
 
@@ -296,16 +286,6 @@ button {
   height: 906px;
   background: #1a1d27;
 }
-.fourth-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: center;
-  gap: 48px;
-}
 
 .fourth-section .fourth-section-top {
   width: 100%;
@@ -399,7 +379,7 @@ button {
     background: #1a1d27;
     padding: 20px;
   }
-  .fourth-section-container {
+  .fourth-section .container {
     width: 100% !important;
     height: 100%;
     margin: 0 auto;
@@ -516,16 +496,7 @@ button {
   width: 100%;
   height: 1238px;
 }
-.fifth-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 80px;
-}
+
 .fifth-section .fifth-section-top {
   width: 100%;
   display: flex;
@@ -654,7 +625,7 @@ button {
 .fifth-section-bottom
   .fifth-section-bottom-cards
   .fifth-section-bottom-cards-card {
-  width: 30% ;
+  width: 30%;
   height: 192px;
   display: flex;
   flex-direction: column;
@@ -710,7 +681,7 @@ button {
     padding: 20px;
   }
 
-  .fifth-section-container {
+  .fifth-section .container {
     max-width: 100%;
     gap: 40px;
   }
@@ -819,16 +790,6 @@ button {
   height: 915px;
   background: #1a1d27;
 }
-.seventh-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 48px;
-}
 .seventh-section .seventh-section-texts {
   display: flex;
   flex-direction: column;
@@ -926,7 +887,7 @@ button {
     height: auto !important;
   }
 
-  .seventh-section-container {
+  .seventh-section .container {
     width: 100% !important;
     height: 100% !important;
     margin: 0 auto;
@@ -1005,15 +966,7 @@ button {
   width: 100%;
   height: 904px;
 }
-.eighth-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 134px;
-}
+
 .eighth-section .eighth-section-left {
   width: 526px;
   height: 664px;
@@ -1086,7 +1039,7 @@ button {
     padding: 20px;
   }
 
-  .eighth-section-container {
+  .eighth-section .container {
     width: 100%;
     flex-direction: column;
     gap: 30px;
@@ -1130,15 +1083,6 @@ button {
 .ninth-section {
   width: 100%;
   height: 946px;
-}
-.ninth-section-container {
-  max-width: 1300px !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 }
 .ninth-section .ninth-section-img {
   position: absolute;
@@ -1253,9 +1197,11 @@ button {
   .ninth-section-div-bottom-top
   .ninth-section-div-bottom-top-right
   div
-  ul a li{
-    color: #1a1d27;
-  }
+  ul
+  a
+  li {
+  color: #1a1d27;
+}
 .ninth-section
   .ninth-section-div
   .ninth-section-div-bottom
@@ -1319,9 +1265,11 @@ button {
   .ninth-section-div-bottom
   .ninth-section-div-bottom-bottom
   div
-  ul a li{
-    color: #1a1d27;
-  }
+  ul
+  a
+  li {
+  color: #1a1d27;
+}
 .ninth-section
   .ninth-section-div
   .ninth-section-div-bottom
@@ -1414,7 +1362,7 @@ button {
     font-weight: 700;
     color: #1a1d2799;
   }
-  .ninth-section-container {
+  .ninth-section .container {
     width: 100% !important;
     height: auto !important;
     margin: 0 auto;

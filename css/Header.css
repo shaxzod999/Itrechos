@@ -18,15 +18,6 @@ a {
   position: relative;
   z-index: 10;
 }
-.header-container {
-  max-width: 1300px;
-  background: #4934db !important;
-  height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 .header .header-logo {
   width: 120px;
   height: auto;
@@ -77,7 +68,7 @@ a {
     align-items: center;
     justify-content: center;
   }
-  .header-container {
+  .container {
     width: 100% !important;
     justify-content: space-between;
     background: #4934db !important;
