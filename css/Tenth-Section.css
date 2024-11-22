@@ -1,0 +1,99 @@
+a {
+  text-decoration: none;
+}
+.tenth-section {
+  width: 100%;
+  background: url("/assets/background-img/Img.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tenth-section_in{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex-direction: column !important;
+  gap: 30px !important;
+  margin-top: 30px;
+}
+.tenth-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #fff;
+}
+.tenth-section button {
+  width: 186px;
+  height: 56px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #1a1d27;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.tenth-section button:hover {
+  background: #333645;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1350px) {
+  .tenth-section {
+    height: auto;
+    padding: 40px 0;
+    background-size: cover;
+  }
+
+  .tenth-section .container {
+    max-width: 100%;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .tenth-section h1 {
+    font-size: 45px !important;
+    text-align: center;
+  }
+
+  .tenth-section button {
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .tenth-section {
+    height: auto;
+    padding: 40px 0;
+    background-size: cover;
+  }
+
+  .tenth-section .container {
+    max-width: 100%;
+    padding: 0 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .tenth-section h1 {
+    font-size: 26px !important;
+    text-align: center;
+  }
+
+  .tenth-section button {
+    width: 100%;
+    max-width: 200px;
+    padding: 15px;
+    font-size: 14px;
+  }
+}

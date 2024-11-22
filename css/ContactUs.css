@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Syne", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.ContactUs {
+  width: 100%;
+  min-height: 100vh !important;
+}
+.first-section {
+  width: 100%;
+  background: url("/assets/background-img/Img.png") !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat !important;
+  margin-bottom: 100px;
+  padding: 100px 0;
+}
+.first-section-container {
+  max-width: 1300px;
+  height: 100% !important;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fff;
+  text-align: center !important;
+}
+.first-section h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+.first-section h4 a{
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.first-section h4 span a{
+  color: #97f793;
+}
+.second-section {
+  width: 100%;
+  margin: 50px 0 100px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.second-section_in {
+  display: flex;
+  align-items: center;
+  gap: 120px !important;
+  justify-content: space-between !important;
+  flex-direction: column;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-image: url("/assets/background-img/Divider\ \(6\).png");
+}
+.second-section-top {
+  width: 100%;
+  min-height: 158px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.second-section-top ul {
+  width: 306px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.second-section-top ul :nth-child(1) {
+  font-size: 44px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #1a1d27;
+}
+.second-section-bottom {
+  width: 100%;
+  height: 524px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 56px;
+}
+.second-section-bottom iframe {
+  width: 636px;
+  height: 100%;
+}
+.second-section-bottom :nth-child(2) {
+  width: 526px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+.second-section-bottom :nth-child(2) div h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #1a1d27;
+}
+.second-section-bottom :nth-child(2) div {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+}
+.second-section-bottom :nth-child(2) div input {
+  width: 100%;
+  height: 56px;
+  padding: 16px;
+  outline: none !important;
+  border: 1px solid #1a1d2766;
+  color: #1a1d27cc;
+  font-size: 16px;
+  font-weight: 400;
+}
+.second-section-bottom :nth-child(2) div textarea {
+  width: 100%;
+  height: 160px;
+  padding: 16px;
+  outline: none !important;
+  border: 1px solid #1a1d2766;
+  color: #1a1d27cc;
+  font-size: 16px;
+  font-weight: 400;
+}
+.second-section-bottom :nth-child(2) div button {
+  width: 100%;
+  height: 56px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #1a1d27;
+  color: #fff !important;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.second-section-bottom :nth-child(2) div button:hover {
+  background: #333645;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1350px) {
+  .first-section {
+    min-height: 300px !important;
+    margin-bottom: 0px;
+  }
+  .second-section_in {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .first-section h1 {
+    font-size: 32px;
+  }
+  .second-section {
+    width: 100%;
+    min-height: 100vh;
+  }
+  .second-section .second-section_in {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    flex-direction: column;
+    gap: 50px !important;
+    background-image: none !important;
+    padding: 0 20px;
+  }
+  .second-section-top {
+    width: 100% !important;
+    min-height: 150px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: -80px;
+  }
+  .second-section-top ul {
+    width: 150px !important;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .second-section-top ul :nth-child(1) {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #1a1d27;
+  }
+  .second-section-bottom {
+    width: 100%;
+    min-height: 600px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 56px;
+  }
+  .second-section-bottom iframe {
+    width: 100% !important;
+    height: 40% !important;
+  }
+  .second-section-bottom :nth-child(2) {
+    width: 100% !important;
+    height: 60% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+  }
+  .second-section-bottom :nth-child(2) div h1 {
+    font-size: 44px;
+    font-weight: 700;
+    color: #1a1d27;
+  }
+  .second-section-bottom :nth-child(2) div {
+    display: flex !important;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .second-section-bottom :nth-child(2) div input {
+    width: 100% !important;
+    height: 56px !important;
+    padding: 16px;
+    outline: none !important;
+    border: 1px solid #1a1d2766;
+    color: #1a1d27cc;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .second-section-bottom textarea {
+    width: 100% !important;
+    height: auto !important;
+    padding: 35px 16px !important;
+    outline: none !important;
+    border: 1px solid #1a1d2766;
+    color: #1a1d27cc;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .second-section-bottom :nth-child(2) div button {
+    width: 100%;
+    height: 56px;
+    padding: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: #1a1d27;
+    color: #fff !important;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  .second-section-bottom :nth-child(2) div button:hover {
+    background: #333645;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  }
+}

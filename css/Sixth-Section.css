@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Syne", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.sixth-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.sixth-section_in{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.sixth-section .sixth-section-texts {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  text-align: center;
+}
+.sixth-section .sixth-section-texts h4 {
+  color: #e374ff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.sixth-section .sixth-section-texts h1 {
+  font-size: 64px;
+  font-weight: 700;
+  color: #1a1d27;
+}
+.sixth-section .sixth-section-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.sixth-section .sixth-section-cards .sixth-section-cards-card {
+  width: 306px;
+  height: 504px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.sixth-section .sixth-section-cards .sixth-section-cards-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.sixth-section .sixth-section-cards .sixth-section-cards-card div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sixth-section .sixth-section-cards .sixth-section-cards-card div h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1d27;
+}
+
+.sixth-section .sixth-section-cards .sixth-section-cards-card div p {
+  color: #1a1d2799;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-icons {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: -50px;
+  gap: 10px;
+  transition: right 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.sixth-section
+  .sixth-section-cards
+  .sixth-section-cards-card:hover
+  .social-icons {
+  right: 10px;
+  opacity: 1;
+}
+
+.sixth-section .container button {
+  width: 249px;
+  height: 56px;
+  padding: 20px;
+  font-size: 15px;
+  font-weight: 500;
+  background: #1a1d27;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.sixth-section .container button:hover {
+  background: #333645;
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 1350px) {
+  .sixth-section .sixth-section-cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .sixth-section {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .container {
+    max-width: 100% !important;
+    padding: 0 16px;
+    gap: 24px;
+  }
+
+  .sixth-section .sixth-section-texts {
+    gap: 16px;
+  }
+
+  .sixth-section .sixth-section-texts h1 {
+    font-size: 36px;
+  }
+
+  .sixth-section .sixth-section-texts h4 {
+    font-size: 16px;
+  }
+
+  .sixth-section .sixth-section-cards {
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .sixth-section .sixth-section-cards .sixth-section-cards-card {
+    width: 100% !important;
+    height: auto;
+    gap: 16px;
+  }
+
+  .sixth-section .sixth-section-cards .sixth-section-cards-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  .sixth-section .sixth-section-cards .sixth-section-cards-card div h3 {
+    font-size: 20px;
+  }
+
+  .sixth-section .sixth-section-cards .sixth-section-cards-card div p {
+    font-size: 14px;
+    color: #1a1d2799;
+  }
+
+  .social-icons {
+    top: 10px;
+    right: -30px;
+    gap: 8px;
+  }
+
+  .sixth-section .container button {
+    width: 100%;
+    font-size: 14px;
+    height: 48px;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  .sixth-section .container button:hover {
+    transform: scale(1.02);
+  }
+}
